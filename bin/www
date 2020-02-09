@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Module dependencies.
+ * 模块依赖.
  */
 
 var app = require('../app');
@@ -9,14 +9,14 @@ var debug = require('debug')('server:server');
 var http = require('http');
 
 /**
- * Get port from environment and store in Express.
+ * 从运行环境和库中获取端口.
  */
 
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
- * Create HTTP server.
+ * 创建 HTTP 服务
  */
 
 var server = http.createServer(app);
@@ -86,5 +86,6 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+  debug('Listening on ' + bind)
+  console.log(`http://localhost:${port}`)
 }

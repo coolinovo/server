@@ -8,3 +8,5 @@
     - `routes` 接口路由
     - `views` mvc 里的 v，ejs呈现
     - `app.js` 核心配置文件，项目入口文件
+## MongoDB
+### 数据库内容结构

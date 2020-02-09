@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
+    <content url="file://D:/BaiduNetdiskDownload/尚硅谷-React项目-硅谷直聘/源码/code/gzhipin-server_final" />
+    <content url="file://$MODULE_DIR$/../coco" />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
